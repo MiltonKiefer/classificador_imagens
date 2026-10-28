@@ -55,5 +55,6 @@ arquivos Linux do WSL.
 - `classificador_imagem/plots.py`: gráficos e painéis de imagens.
 - `classificador_imagem/run.py`: execução integrada do pipeline.
 
-O notebook original em `../deep_learning/notebooks/Classificador_imagens.ipynb`
-é mantido separado e não é alterado por este projeto.
+O notebook do classificador está em `notebooks/Classificador_imagens.ipynb`.
+Ele treina a CNN no CIFAR-10 com `EarlyStopping` e `ReduceLROnPlateau`, e é
+independente do pacote `classificador_imagem`.
